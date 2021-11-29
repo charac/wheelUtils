@@ -1,13 +1,13 @@
 /*
  * @since: 2021-11-22 14:21:01
  * @LastAuthor: Do not edit
- * @lastTime: 2021-11-22 14:32:38
+ * @lastTime: 2021-11-29 16:30:46
  * @文件相对于项目的路径: \financial-sx-org-webe:\npm仓库\常用js工具库\wheelUtils\index.js
  * @Author: ltm@xtoneict.com
  * @message: 工具库
  */
 import cookies from './util.cookies'
-import db from './util.db'
+// import db from './util.db'
 import log from './util.log'
 export * from './util.convert'
 export * from './util.tool'
@@ -16,7 +16,7 @@ export * from './util.localStorage'
 
 const util = {
   cookies,
-  db,
+  // db,
   log
 }
 
