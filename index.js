@@ -1,8 +1,8 @@
 /*
  * @since: 2021-11-22 14:21:01
  * @LastAuthor: Do not edit
- * @lastTime: 2021-11-29 16:30:46
- * @文件相对于项目的路径: \financial-sx-org-webe:\npm仓库\常用js工具库\wheelUtils\index.js
+ * @lastTime: 2021-11-30 10:00:21
+ * @文件相对于项目的路径: \financial-sx-sso-webe:\npm仓库\常用js工具库\wheelUtils\index.js
  * @Author: ltm@xtoneict.com
  * @message: 工具库
  */
@@ -19,6 +19,16 @@ const util = {
   // db,
   log
 }
+
+
+/**
+ * @param {string} path
+ * @returns {Boolean}
+ */
+export const isExternal = (path) => {
+  return /^(https?:|mailto:|tel:)/.test(path)
+}
+
 
 /**
  * @description 更新标题
